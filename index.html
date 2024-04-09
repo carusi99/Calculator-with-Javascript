@@ -44,4 +44,86 @@
                         </div>
                       </div>
                     </header>
-                   
+                    <div class="content">
+    
+                      <h1>
+                        Explorando el Código: Creando una calculadora con JavaScript
+                      </h1>
+                      <img
+                        src="/assets/images/calcularoda.foto.png"
+                        alt="Calculadora Trucha"
+                        width="1344"
+                        height="196"
+                      />
+                      <p>
+                        En este artículo, desglosaremos el código que representa la
+                        creación de una <strong>calculadora</strong> utilizando HTML, CSS
+                        y JavaScript. Esta calculadora nos permitirá realizar las operaciones                     
+                        matemáticas básicas: <strong>(+, -, *, ÷)</strong>.<br>
+                        Vamos a explorar las partes más importantes del código para 
+                        comprender cómo funciona.
+                      </p>
+                      <h2 id="el-html">Estructura HTML: La base de la calculadora </h2>
+                      <p>
+                        El código HTML define la estructura de la calculadora, con
+                        elementos como: botones para los números y las operaciones básicas
+                        y un área de visualización del resultado de las operaciones. <br>
+                        Veamos cómo se organiza este código:
+                      </p>
+    <pre >
+      <code>
+        &lt;div class="calculator"&gt;
+          &lt;div class="display"&gt;0&lt;/div&gt;
+            &lt;button class="btn" id="divition"&gt;÷&lt;/button &gt;
+            &lt;button class="btn" id="btn1"&gt;1&lt;/button &gt;
+            &lt;button class="btn" id="btn2"&gt;2&lt;/button &gt;
+            &lt;button class="btn" id="btn3"&gt;3&lt;/button &gt;
+            &lt;button class="btn" id="erase"&gt;
+            &lt;svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              &gt;
+            &lt;path
+                d="M20 5H9L2 12L9 19H20C20.5304 19 21.0391 18.7893 21.4142 18.4142C21.7893 18.0391 22 17.5304 22 17V7C22 6.46957 21.7893 5.96086 21.4142 5.58579C21.0391 5.21071 20.5304 5 20 5Z"
+                stroke="#525252"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /&gt;
+              &lt;path
+                d="M18 9L12 15"
+                stroke="#525252"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /&gt;
+              &lt;path
+                d="M12 9L18 15"
+                stroke="#525252"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              / &gt;
+          &lt;/svg &gt;
+          &lt;/button &gt;
+          &lt;button class="btn" id="mult"&gt;x&lt;/button &gt;
+          &lt;button class="btn" id="btn4"&gt;4&lt;/button&gt;
+          &lt;button class="btn" id="btn5"&gt;5&lt;/button&gt;
+          &lt;button class="btn" id="btn6"&gt;6&lt;/button&gt;
+          &lt;button class="btn" id="reset"&gt;C&lt;/button&gt;
+          &lt;button class="btn" id="subs"&gt;-&lt;/button&gt;
+          &lt;button class="btn" id="btn7"&gt;7&lt;/button&gt;
+          &lt;button class="btn" id="btn8"&gt;8&lt;/button&gt;
+          &lt;button class="btn" id="btn9"&gt;9&lt;/button&gt;
+          &lt;button class="btn" id="equal"&gt;=&lt;/button&gt;
+          &lt;button class="btn" id="add"&gt;+&lt;/button&gt;
+          &lt;button class="btn" id="btn0"&gt;0&lt;/button&gt;
+          &lt;button class="btn" id="dot"&gt;.&lt;/button&gt;
+          &lt;/div&gt;
+      </code>
+    </pre>
+    
+         
