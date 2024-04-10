@@ -1,0 +1,151 @@
+.container-timer {
+  display: inline-flex;
+  padding: 1rem var(--spacing-8, 2rem);
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-8, 2rem);
+}
+
+.timer-title {
+  color: var(--foreground);
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+.container-display {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container-number-seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+div .input-number {
+  display: flex;
+  width: 3.75rem;
+  height: 2.5rem;
+  padding: var(--spacing-2, 0.5rem) var(--spacing-3, 0.75rem);
+  align-items: flex-start;
+  gap: 0.25rem;
+  border-radius: var(--rounded-md, 0.375rem);
+  border: 1px solid var(--border);
+  background: var(--background);
+}
+.timer-seconds {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.button-start {
+  display: flex;
+  height: var(--spacing-10, 2.5rem);
+  padding: var(--spacing-2, 0.5rem) var(--spacing-4, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 0.5rem);
+  border-radius: var(--rounded-md, 0.375rem);
+  border: 1px solid var(--green-500);
+  background: var(--success, #F0FDF4);
+  color: var(--success-foreground, #052E16);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+.button-start:disabled {
+  border: 1px solid var(--green-400);
+  opacity: 0.5;
+  background: hsla(138, 76%, 97%, 1);
+  color: hsla(145, 80%, 10%, 1);
+}
+
+.timer-display {
+  color: var(--muted-foreground, #525252);
+  text-align: center;
+  font-family: "Familjen Grotesk";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.75rem;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+ .button-pause:disabled {
+  display: flex;
+  height: var(--spacing-10, 2.5rem);
+  padding: var(--spacing-2, 0.5rem) var(--spacing-4, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 0.5rem);
+  border-radius: var(--rounded-md, 0.375rem);
+  opacity: 0.5;
+  background: var(--secondary, #E5E5E5);
+  border: 0;
+  color: var(--secondary-foreground, #262626);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.button-pause:enabled {
+  display: flex;
+  height: var(--spacing-10, 2.5rem);
+  padding: var(--spacing-2, 0.5rem) var(--spacing-4, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 0.5rem);
+  border-radius: var(--rounded-md, 0.375rem);
+  background: var(--secondary, #E5E5E5);
+  color: var(--secondary-foreground, #262626);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  border: 0;
+}
+
+.button-stop:disabled {
+  display: flex;
+  height: 2.5rem;
+  padding: var(--spacing-2, 0.5rem) var(--spacing-4, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 0.5rem);
+  border-radius: var(--rounded-md, 0.375rem);
+  border: 1px solid var(--danger-border, #DC2626);
+  opacity: 0.5;
+  background: var(--danger, #FEF2F2);
+  color: var(--danger-foreground, #450A0A);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+
+}
+
+.button-stop:enabled {
+  display: flex;
+  height: 2.5rem;
+  padding: var(--spacing-2, 0.5rem) var(--spacing-4, 1rem);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 0.5rem);
+  border-radius: var(--rounded-md, 0.375rem);
+  border: 1px solid var(--danger-border, #DC2626);
+  background: var(--danger, #FEF2F2);
+  color: var(--danger-foreground, #450A0A);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}

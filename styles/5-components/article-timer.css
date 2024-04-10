@@ -1,0 +1,30 @@
+/* CODE COLOR */
+
+.pink-color {
+  color: rgb(255, 0, 255);
+}
+.green-color {
+  color: rgb(55, 220, 162);
+}
+.blue-color {
+  color: rgb(0, 174, 255);
+}
+.yellow-color {
+  color: rgb(237, 255, 121);
+}
+.violet-color {
+  color: rgb(149, 67, 225);
+}
+.grey-color {
+  color: rgb(128, 128, 128);
+}
+
+.container-timer {
+  padding-block: 70px;
+  display: flex;
+  align-items: center;
+}
+.tutorial-code {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
