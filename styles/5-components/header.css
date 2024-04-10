@@ -16,26 +16,19 @@
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  background-color: var(--background);
-
+  background-color: var(--red-100);
   position: sticky;
   top: 0;
 }
 
 .header__logo {
-  color: var(--primary);
+  color: var(--neutral-950);
   font-family: var(--display);
   font-size: var(--font-3xl);
-  font-weight: 500;
+  font-weight: bold;
   line-height: var(--leading-none);
 }
 
-.header__logo a {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  transition: color 300ms;
-}
 
 .header__logo a:hover {
   color: var(--primary-hover);
