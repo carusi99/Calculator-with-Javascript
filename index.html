@@ -162,4 +162,110 @@
       </code>
     </pre>
     
+    <p>
+      Sabemos que son muchas variables, no se asusten.
+    </p>
+    <h4 class="tutorial-code">2. Función Display</h4>
+    
+    <pre>
+      <code>
+        function display() {
+          displayCalculator.innerText =
+            numeroPrevio + " " + operador + " " + numeroActual;
+        }
+      </code>
+    </pre>
+    <p>
+      Esta función es la encargada de mostrar el resultado de las operaciones.<br>
+      Asigna un nuevo innerText ( con el resultado de la operación matemática ) 
+      al div con la clase .display
+    </p>
+    <h4 class="tutorial-code">3.Función HandleButton</h4>
+    <pre>
+      <code>
+        function handleButton(num) {
+          if (!(memoria === numeroActual) && numeroActual.length < 12) {
+            numeroActual === "0" ? (numeroActual = num) : (numeroActual += num);
+            display();
+          }
+        }
+        // manejadores de los eventos click de los botones numericos
+        btn1.addEventListener("click", (e) => handleButton("1"));
+        btn2.addEventListener("click", (e) => handleButton("2"));
+        btn3.addEventListener("click", (e) => handleButton("3"));
+        btn4.addEventListener("click", (e) => handleButton("4"));
+        btn5.addEventListener("click", (e) => handleButton("5"));
+        btn6.addEventListener("click", (e) => handleButton("6"));
+        btn7.addEventListener("click", (e) => handleButton("7"));
+        btn8.addEventListener("click", (e) => handleButton("8"));
+        btn9.addEventListener("click", (e) => handleButton("9"));
+        btn0.addEventListener("click", (e) => handleButton("0"));
+      </code>
+    </pre>
+    <p>
+      Esta es la función manejadora de clicks de los números (0-9).<br>
+      Se hace uso de un condicional para comprobar que la variable memoria 
+      sea distinta al numero actual y también limitamos la longitud de número actual a 12.<br>
+      Luego hacemos uso de una expresión ternaria para actualizar el número actual.<br>
+      Luego con ayuda de addEventListener asignamos los manejadores de los eventos click de los botones númericos
+    </p>
+    <h4>4. Agregamos manejadores de eventos "click" a los botones operacionales (+,-,*,÷) y el "."</h4>
+    
+      <pre>
+        <code>
+          
+          btnSum.addEventListener("click", (e) => {
+            if (numeroActual === "Error Math") return;
+            if (operador === "") {
+              numeroPrevio = numeroActual;
+              numeroActual = "";
+            }
+            operador = "+";
+            display();
+          });
+          
+          btnRest.addEventListener("click", (e) => {
+            if (numeroActual === "Error Math") return;
+            if (operador === "") {
+              numeroPrevio = numeroActual;
+              numeroActual = "";
+            }
+            operador = "-";
+            display();
+          });
+          
+          btnMult.addEventListener("click", (e) => {
+            if (numeroActual === "Error Math") return;
+            if (operador === "") {
+              numeroPrevio = numeroActual;
+              numeroActual = "";
+            }
+            operador = "x";
+            display();
+          });
+          
+          btnDiv.addEventListener("click", (e) => {
+            if (numeroActual === "Error Math") return;
+            if (operador === "") {
+              numeroPrevio = numeroActual;
+              numeroActual = "";
+            }
+            operador = "÷";
+            display();
+          });
+          
+          btnDot.addEventListener("click", (e) => {
+            if (numeroActual === "Error Math") return;
+            if (!numeroActual.includes(".")) {
+              numeroActual += ".";
+              display();
+            }
+          });
+        </code>
+      </pre>
+      <p>
+        Implementa la lógica para cada operación y función:<br>
+        Suma, resta, multiplicación, división y el Punto decimal.<br>
+        Siempre llamamos a la función `display();` para actualizar el resultado.
+      </p>
     
