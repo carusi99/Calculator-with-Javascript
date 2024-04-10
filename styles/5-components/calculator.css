@@ -14,17 +14,12 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
-/* .buttons-calculator {
-  background: var(--neutral-300, #D4D4D4);
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-} */
 
 .display {
   grid-column: 1 / 6;
   color: black;
   background-color: var(--sky-200);
-  border: 3px solid var(--white, #d4d4d4);
+  border: 3px solid var(--white);
 
 }
 #btn0 {
