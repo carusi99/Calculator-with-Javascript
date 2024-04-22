@@ -13,7 +13,7 @@ define la interfaz de la calculadora. Aquí tienes algunos elementos importantes
 - Cada botón tiene un identificador único (id) para identificarlo fácilmente en el código JavaScript.
   
 ### `Estilos CSS:` 
-Los estilos CSS se aplican a los elementos HTML para darles formato y diseño. En este caso, el archivo de estilos parece estar ubicado en "/styles/index.css".
+Los estilos CSS se aplican a los elementos HTML para darles formato y diseño. En este caso, el archivo de estilos está ubicado en "/styles/index.css".
 
 ### `Código JavaScript:`
 El archivo JavaScript asociado (calculator.js) contiene la lógica de la calculadora. Aquí se definen variables para los elementos de la calculadora (números, operadores, pantalla de visualización, etc.) y se escriben las funciones para manejar las operaciones matemáticas y la interacción del usuario.
