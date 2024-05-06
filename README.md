@@ -1,28 +1,57 @@
-# Javascript Management
+
+## ¡Calculadora con Javascript!
+
+![calculadora](https://github.com/carusi99/Calculator-with-Javascript/assets/151582174/edfe9ba2-b72b-416f-94bc-fc5d9f78ddf0)
+
+# Calculadora 
 
 Este proyecto es la estructura de una página web HTML que contiene una calculadora implementada con JavaScript. Permíteme explicarte qué hace cada parte:
 
-### `La estructura HTML:` 
-define la interfaz de la calculadora. Aquí tienes algunos elementos importantes:
-- Un div con la clase "calculator" que contiene todos los elementos de la calculadora, como botones y la pantalla de visualización del resultado.
-- Botones numerados del 0 al 9 para ingresar números.
-- Botones de operaciones como suma, resta, multiplicación y división.
-- Botón de igual (=) para calcular el resultado de la operación.
-- Botón de reset (C) para limpiar la pantalla y restablecer la calculadora.
-- Botón de borrar (erase) para eliminar el último dígito ingresado.
-- Cada botón tiene un identificador único (id) para identificarlo fácilmente en el código JavaScript.
-  
-### `Estilos CSS:` 
-Los estilos CSS se aplican a los elementos HTML para darles formato y diseño. En este caso, el archivo de estilos está ubicado en "/styles/index.css".
 
-### `Código JavaScript:`
-El archivo JavaScript asociado (calculator.js) contiene la lógica de la calculadora. Aquí se definen variables para los elementos de la calculadora (números, operadores, pantalla de visualización, etc.) y se escriben las funciones para manejar las operaciones matemáticas y la interacción del usuario.
-El código JavaScript se divide en secciones que incluyen:
+## Características Principales
+### Estructura HTML:
+La calculadora está encapsulada en un div con la clase "calculator". Contiene botones numéricos del 0 al 9, operacionales (+, -, *, /), igual (=), reset (C) y borrar (erase), cada uno con un identificador único.
 
-- Declaración y asignación de variables para los elementos de la calculadora.
-- Funciones para mostrar el resultado en la pantalla (display) y manejar los eventos de clic de los botones numéricos y operacionales.
-- Funciones para las operaciones matemáticas (suma, resta, multiplicación, división).
-- Funciones para limpiar la pantalla y borrar el último dígito ingresado.
-- Función para resolver la operación cuando se presiona el botón de igual (=).
+### Estilos CSS:
+Los estilos CSS en "/styles/index.css" dan formato y diseño a la calculadora, definiendo aspectos como tamaño, color y disposición de botones y pantalla de visualización del resultado.
 
-#### En resumen, este código HTML, CSS y JavaScript define una calculadora interactiva que permite a los usuarios realizar operaciones matemáticas básicas. La página web también incluye un encabezado con información sobre el artículo y un pie de página con enlaces a perfiles sociales y derechos de autor.
+### Código JavaScript:
+El archivo "calculator.js" maneja la lógica de la calculadora. Define variables para elementos de la calculadora y funciones para eventos de clic en botones, operaciones matemáticas, mostrar resultados, limpiar la pantalla y borrar el último dígito.
+
+
+## instalación
+
+- Asegúrese de instalar Live Server en Visual Studio Code, sigue estos pasos:
+
+
+Clone este repositorio
+
+```bash
+  git clone https://github.com/carusi99/Calculator-with-Javascript.git
+```
+
+Ir al directorio del proyecto
+
+```bash
+  cd my-project
+```
+- Ve a la pestaña de extensiones en la barra lateral izquierda (icono de cuadrado con cuatro cuadrados pequeños dentro o presiona Ctrl+Shift+X).
+
+- En el cuadro de búsqueda, escribe "Live Server".
+
+- Una vez que la instalación esté completa, podrás activar Live Server en tu archivo HTML haciendo clic en "Go Live" en la esquina inferior derecha de tu archivo HTML o presionando Alt+L luego Alt+O.
+
+
+## 🛠 Skills
+- **JavaScript**: El lenguaje de programación principal utilizado para la lógica del lado del cliente y del servidor.
+- **HTML y CSS**: Utilizados para estilizar la interfaz de usuario.
+
+
+
+## Contribuciones
+
+cualquier contribución o comentario, me puedes contactar, con gusto te responderé paolapachecocarusi@gmail.com
+
+### 😄¡Y eso es todo! Empieza a organizar tus ideas con el Gestor de Notas hoy mismo.
+
+
