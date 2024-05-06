@@ -52,6 +52,6 @@ Ir al directorio del proyecto
 
 cualquier contribución o comentario, me puedes contactar, con gusto te responderé paolapachecocarusi@gmail.com
 
-### 😄¡Y eso es todo! Empieza a organizar tus ideas con el Gestor de Notas hoy mismo.
+### 😄¡Y eso es todo! Empieza a calcular hoy mismo.
 
 
